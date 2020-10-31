@@ -1,8 +1,6 @@
-![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)
+[Website of c3 Inclusion Operation Center](https://c3ioc.gitlab.io)
 
 ---
-
-Example plain HTML site using GitLab Pages.
 
 Learn more about GitLab Pages at https://pages.gitlab.io and the official
 documentation https://docs.gitlab.com/ce/user/project/pages/.
