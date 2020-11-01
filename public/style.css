@@ -20,14 +20,13 @@ a:focus {
 
 .flex {
   display: flex;
-
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 .flex > * {
   margin: 0 1em;
-  flex-basis: 20rem;
+  flex-basis: 25rem;
   flex-grow: 1;
 }
 
@@ -43,7 +42,10 @@ h1 {
   right: 0;
 }
 
-@media only screen and (min-width: 49em) {
+@media only screen and (min-width: 50em) {
+  .flex > * {
+    flex-basis: 20rem;
+  }
   .skiplink {
     position: absolute;
     top: -9999px;
