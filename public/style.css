@@ -1,5 +1,12 @@
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url("fonts/Ubuntu-Light.ttf") format("ttf");
+  font-weight: lighter;
+  font-style: normal;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: Ubuntu-Light, sans-serif;
   font-size: 13pt;
   line-height: 1.7em;
   padding: 5%;
