@@ -14,6 +14,7 @@ Header: Ubunto Light 25pt black
 Title: Ubuntu Regular 16 pt #e20cefff
 Text: Ubuntu Medium 12pt #ccccccff
 Link: Ubuntu Medium 12 pt #763bffff
+Link hover: #b162f4ff
 
 ### Colors
 Background: #040012ff
@@ -27,6 +28,7 @@ Header: Ubunto **Bold** 25pt **white**
 Title: Ubuntu **medium** 16 pt **#bf1eb7ff**
 Text: Ubuntu **regular** 12pt **#333333ff**
 Link: Ubuntu **regular** 12 pt #763bffff
+Link hover: #5f0096ff
 
 ### Colors
 Background: **#efefef00**
