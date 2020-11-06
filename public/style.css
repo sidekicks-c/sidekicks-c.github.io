@@ -52,10 +52,12 @@
 }
 
 body {
-  font-family: Ubuntu-Light, sans-serif;
+  font-family: "Ubuntu Regular", sans-serif;
   font-size: 13pt;
   line-height: 1.7em;
   margin: 0;
+  background: #efefef;
+  color: #333333;
 }
 
 :root {
@@ -98,10 +100,17 @@ h1 {
   font-family: "Ubuntu-Bold";
   color: white;
 }
+h2 {
+  font-family: "Ubuntu-Medium";
+  color: #bf1eb7;
+}
+ul {
+  background: #e2e2e2ff;
+}
 .skiplink {
   position: absolute;
   bottom: -2em;
-  right: 0;
+  right: 1em;
 }
 
 @media only screen and (min-width: 50em) {
@@ -109,7 +118,7 @@ h1 {
     flex-basis: 20rem;
   }
   header {
-  background-size: 100vw;
+    background-size: 100vw;
   }
   .skiplink {
     position: absolute;
@@ -123,9 +132,10 @@ h1 {
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    background-color: #000;
-    color: #fff;
+  body {
+    background: #040012;
+    color: #ccc;
+    font-family: "Ubuntu-Medium";
   }
   a {
     text-decoration: underline;
@@ -134,5 +144,12 @@ h1 {
   h1 {
     font-family: "Ubuntu-Light";
     color: black;
+  }
+  h2 {
+    font-family: "Ubuntu Regular";
+    color: #e20cef;
+  }
+  ul {
+    background: black;
   }
 }
