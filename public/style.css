@@ -107,6 +107,11 @@ h2 {
 }
 ul {
   background: #e2e2e2ff;
+
+  border-width: 3px 0 0 0;
+  border-style: solid;
+  -o-border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
+  border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
 }
 .skiplink {
   position: absolute;
