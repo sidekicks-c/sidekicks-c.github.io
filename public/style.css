@@ -113,6 +113,10 @@ ul {
   -o-border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
   border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
 }
+.lang {
+  font-size: 1.2em;
+  font-family: "Ubuntu-Medium";
+}
 .skiplink {
   position: absolute;
   bottom: -2em;
