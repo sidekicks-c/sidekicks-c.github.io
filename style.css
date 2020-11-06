@@ -54,7 +54,7 @@
 body {
   font-family: "Ubuntu Regular", sans-serif;
   font-size: 13pt;
-  line-height: 1.7em;
+  line-height: 1.35em;
   margin: 0;
   background: #efefef;
   color: #333333;
@@ -113,6 +113,10 @@ ul {
   -o-border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
   border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
 }
+p {
+  margin: 2rem auto;
+}
+
 .lang {
   font-size: 1.2em;
   font-family: "Ubuntu-Medium";
