@@ -66,10 +66,11 @@ body {
 
 a {
   text-decoration: none;
+  color: #763bff;
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
+  color: #5f0096;
 }
 
 .flex {
@@ -138,8 +139,12 @@ ul {
     font-family: "Ubuntu-Medium";
   }
   a {
-    text-decoration: underline;
-    color: #fff;
+    text-decoration: none;
+    color: #763bff;
+  }
+  a:hover,
+  a:focus {
+    color: #b162f4;
   }
   h1 {
     font-family: "Ubuntu-Light";
