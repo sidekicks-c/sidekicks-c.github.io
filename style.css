@@ -86,7 +86,7 @@ header {
   position: relative;
   background-image: url("img/header_img_placeholder.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw 100%;
+  background-size: cover 100%;
   padding: 1.5em 1em;
 }
 h1 {
