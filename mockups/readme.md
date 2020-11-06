@@ -7,14 +7,16 @@ This is some useful information for you to style the c3ioc Website using the Des
 - the changing attributes are highlighted
 - inkscape does not display the font names correctly. The names included in this document correspond to the abbreviations in the font file names.
 - the text in the svg files has not been checked and shouldn't be used as a source for the website.
+- You can accieve the Header Backdrop shape simply by using a dif with alternating corners using just css ;)
 
 ## Dark Theme
 ### Fonts
-Header: Ubunto Light 25pt black
-Title: Ubuntu Regular 16 pt #e20cefff
-Text: Ubuntu Medium 12pt #ccccccff
-Link: Ubuntu Medium 12 pt #763bffff
-Link hover: #b162f4ff
+Header: Ubunto Light 2em black
+Title: Ubuntu Regular 1.5em pt #e20cefff
+Text: Ubuntu Medium 1em #ccccccff
+Link: Ubuntu Medium 1em pt #763bffff
+vertical Line-spacing: 1.35em
+vertical Paragraph Spacing: 2em
 
 ### Colors
 Background: #040012ff
@@ -24,11 +26,12 @@ Highlight-gradient-end: 6600eaff
 
 ## Light Theme
 ### Fonts
-Header: Ubunto **Bold** 25pt **white**
-Title: Ubuntu **medium** 16 pt **#bf1eb7ff**
-Text: Ubuntu **regular** 12pt **#333333ff**
-Link: Ubuntu **regular** 12 pt #763bffff
-Link hover: #5f0096ff
+Header: Ubunto **Bold** 2em **white**
+Title: Ubuntu **medium** 1.5em **#bf1eb7ff**
+Text: Ubuntu **regular** 1em **#333333ff**
+Link: Ubuntu **regular** 1em #763bffff
+vertical Line-spacing: 1.35em
+vertical Paragraph Spacing: 2em
 
 ### Colors
 Background: **#efefef00**
