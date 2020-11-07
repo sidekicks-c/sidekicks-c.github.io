@@ -58,7 +58,6 @@ body {
   margin: 0 auto;
   background: #efefef;
   color: #333333;
-  max-width: 120ch;
 }
 
 :root {
@@ -130,11 +129,14 @@ p {
 }
 
 @media only screen and (min-width: 50em) {
+  body {
+    max-width: 120ch;
+  }
   .flex > * {
     flex-basis: 20rem;
   }
   header {
-    background-size: 100vw;
+    background-size: 100%;
   }
   .skiplink {
     position: absolute;
