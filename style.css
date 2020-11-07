@@ -101,6 +101,7 @@ h1 {
   border-bottom-right-radius: 0.75em;
   font-family: "Ubuntu-Bold";
   color: white;
+  line-height: 1em;
 }
 h2 {
   font-family: "Ubuntu-Medium";
