@@ -159,15 +159,15 @@ p {
 }
 .control-me {
 }
-#toggle:checked ~ .control-me  {
+#toggle:checked ~ .fontchange  {
   font-family: OpenDyslexicThree-Regular;
 }
 
-#toggle:checked ~ .control-me .lang  {
+#toggle:checked ~ .fontchange .lang  {
   font-family: OpenDyslexicThree-Bold;
 }
 
-#toggle:checked ~ .control-me h2  {
+#toggle:checked ~ .fontchange h2  {
   font-family: OpenDyslexicThree-Bold;
 }
 
