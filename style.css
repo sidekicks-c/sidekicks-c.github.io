@@ -2,12 +2,14 @@
 @font-face {
   font-family: "OpenDyslexicThree-Bold";
   src: url("./fonts/OpenDyslexic3-Bold.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/OpenDyslexic3-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./fonts/OpenDyslexic3-Bold.otf") format("opentype"), /* Open Type Font */
-    url("./fonts/OpenDyslexic3-Bold.svg") format("svg"), /* Legacy iOS */
-    url("./fonts/OpenDyslexic3-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("./fonts/OpenDyslexic3-Bold.woff") format("woff"), /* Modern Browsers */
-    url("./fonts/OpenDyslexic3-Bold.woff2") format("woff2"); /* Modern Browsers */
+  src: url("./fonts/OpenDyslexic3-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/OpenDyslexic3-Bold.otf") format("opentype"),
+    /* Open Type Font */ url("./fonts/OpenDyslexic3-Bold.svg") format("svg"),
+    /* Legacy iOS */ url("./fonts/OpenDyslexic3-Bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/OpenDyslexic3-Bold.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/OpenDyslexic3-Bold.woff2")
+      format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
@@ -138,7 +140,6 @@ h2 {
 }
 ul {
   background: #e2e2e2ff;
-
   border-width: 3px 0 0 0;
   border-style: solid;
   -o-border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
@@ -157,17 +158,14 @@ p {
   bottom: -2em;
   right: 1em;
 }
-.control-me {
-}
-#toggle:checked ~ .fontchange  {
+
+#toggle:checked ~ .fontchange {
   font-family: OpenDyslexicThree-Regular;
 }
-
-#toggle:checked ~ .fontchange .lang  {
+#toggle:checked ~ .fontchange .lang {
   font-family: OpenDyslexicThree-Bold;
 }
-
-#toggle:checked ~ .fontchange h2  {
+#toggle:checked ~ .fontchange h2 {
   font-family: OpenDyslexicThree-Bold;
 }
 
