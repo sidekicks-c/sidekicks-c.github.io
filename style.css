@@ -1,4 +1,33 @@
-/* fonts converted using font-converter.net. thank you! */
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenDyslexicThree-Bold";
+  src: url("./fonts/OpenDyslexic3-Bold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/OpenDyslexic3-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/OpenDyslexic3-Bold.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/OpenDyslexic3-Bold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/OpenDyslexic3-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/OpenDyslexic3-Bold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/OpenDyslexic3-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenDyslexicThree-Regular";
+  src: url("./fonts/OpenDyslexic3-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/OpenDyslexic3-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/OpenDyslexic3-Regular.otf") format("opentype"),
+    /* Open Type Font */ url("./fonts/OpenDyslexic3-Regular.svg") format("svg"),
+    /* Legacy iOS */ url("./fonts/OpenDyslexic3-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/OpenDyslexic3-Regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/OpenDyslexic3-Regular.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Ubuntu Regular";
   src: url("./fonts/Ubuntu-R.eot"); /* IE9 Compat Modes */
@@ -105,6 +134,7 @@ h1 {
 h2 {
   font-family: "Ubuntu-Medium";
   color: #bf1eb7;
+  line-height: 1.2;
 }
 ul {
   background: #e2e2e2ff;
@@ -126,6 +156,19 @@ p {
   position: absolute;
   bottom: -2em;
   right: 1em;
+}
+.control-me {
+}
+#toggle:checked ~ .control-me  {
+  font-family: OpenDyslexicThree-Regular;
+}
+
+#toggle:checked ~ .control-me .lang  {
+  font-family: OpenDyslexicThree-Bold;
+}
+
+#toggle:checked ~ .control-me h2  {
+  font-family: OpenDyslexicThree-Bold;
 }
 
 @media only screen and (min-width: 50em) {
