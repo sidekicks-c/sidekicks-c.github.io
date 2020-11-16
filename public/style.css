@@ -1,5 +1,102 @@
 /* font converted using font-converter.net. thank you! */
 @font-face {
+  font-family: "SylexiadSansMedium-Bold";
+  src: url("./fonts/SylexiadSansMedium-Bold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/SylexiadSansMedium-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/SylexiadSansMedium-Bold.otf") format("opentype"),
+    /* Open Type Font */ url("./fonts/SylexiadSansMedium-Bold.svg")
+      format("svg"),
+    /* Legacy iOS */ url("./fonts/SylexiadSansMedium-Bold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/SylexiadSansMedium-Bold.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/SylexiadSansMedium-Bold.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SylexiadSansMedium";
+  src: url("./fonts/SylexiadSansMedium.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/SylexiadSansMedium.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/SylexiadSansMedium.otf") format("opentype"),
+    /* Open Type Font */ url("./fonts/SylexiadSansMedium.svg") format("svg"),
+    /* Legacy iOS */ url("./fonts/SylexiadSansMedium.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/SylexiadSansMedium.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/SylexiadSansMedium.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lora-Bold";
+  src: url("./fonts/Lora-Bold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Lora-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/Lora-Bold.otf") format("opentype"),
+    /* Open Type Font */ url("./fonts/Lora-Bold.svg") format("svg"),
+    /* Legacy iOS */ url("./fonts/Lora-Bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Lora-Bold.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/Lora-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lora-Regular";
+  src: url("./fonts/Lora-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Lora-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/Lora-Regular.otf") format("opentype"),
+    /* Open Type Font */ url("./fonts/Lora-Regular.svg") format("svg"),
+    /* Legacy iOS */ url("./fonts/Lora-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Lora-Regular.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/Lora-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AtkinsonHyperlegible-Bold";
+  src: url("./fonts/Atkinson-Hyperlegible-Bold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Atkinson-Hyperlegible-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/Atkinson-Hyperlegible-Bold.otf")
+      format("opentype"),
+    /* Open Type Font */ url("./fonts/Atkinson-Hyperlegible-Bold.svg")
+      format("svg"),
+    /* Legacy iOS */ url("./fonts/Atkinson-Hyperlegible-Bold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Atkinson-Hyperlegible-Bold.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/Atkinson-Hyperlegible-Bold.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AtkinsonHyperlegible-Regular";
+  src: url("./fonts/Atkinson-Hyperlegible-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Atkinson-Hyperlegible-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/Atkinson-Hyperlegible-Regular.otf")
+      format("opentype"),
+    /* Open Type Font */ url("./fonts/Atkinson-Hyperlegible-Regular.svg")
+      format("svg"),
+    /* Legacy iOS */ url("./fonts/Atkinson-Hyperlegible-Regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Atkinson-Hyperlegible-Regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/Atkinson-Hyperlegible-Regular.woff2")
+      format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "OpenDyslexicThree-Bold";
   src: url("./fonts/OpenDyslexic3-Bold.eot"); /* IE9 Compat Modes */
   src: url("./fonts/OpenDyslexic3-Bold.eot?#iefix") format("embedded-opentype"),
