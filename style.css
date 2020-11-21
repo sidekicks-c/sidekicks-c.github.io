@@ -15,6 +15,7 @@
       format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -30,6 +31,7 @@
       format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -43,6 +45,7 @@
     /* Modern Browsers */ url("./fonts/Lora-Bold.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -56,6 +59,7 @@
     /* Modern Browsers */ url("./fonts/Lora-Regular.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -75,6 +79,7 @@
       format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -94,6 +99,7 @@
       format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -109,6 +115,7 @@
       format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -125,6 +132,7 @@
       format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -138,6 +146,7 @@
     /* Modern Browsers */ url("./fonts/Ubuntu-R.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -151,6 +160,7 @@
     /* Modern Browsers */ url("./fonts/Ubuntu-L.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -164,6 +174,7 @@
     /* Modern Browsers */ url("./fonts/Ubuntu-M.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -177,6 +188,7 @@
     /* Modern Browsers */ url("./fonts/Ubuntu-B.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 body {
