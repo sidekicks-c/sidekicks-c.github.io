@@ -1,0 +1,11 @@
+#image: registry.git.cccv.de/infra/static-pages/docker-images/buster
+image: debian:buster
+
+pages:
+  stage: deploy
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
