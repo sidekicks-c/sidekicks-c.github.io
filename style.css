@@ -277,10 +277,6 @@ p {
   font-family: OpenDyslexicThree-Bold;
 }
 
-.options-box, #font-selection {
-  background: white;
-}
-
 .font-Ubuntu {
   font-family: "Ubuntu Regular", sans-serif;
 }
@@ -329,8 +325,12 @@ p {
   font-family: OpenDyslexicThree-Bold, sans-serif;
 }
 
+/* Utility classes */
+.display-none {
+  display: none;
+}
 
-
+/* Media queries */
 @media only screen and (min-width: 50em) {
   body {
     max-width: 120ch;
