@@ -4,9 +4,7 @@ image: debian:buster
 pages:
   stage: deploy
   script:
-    - mkdir public
-    - mv static public
-    - mv congress.html public/index.html
+  - echo 'Nothing to do...'
   artifacts:
     paths:
     - public
