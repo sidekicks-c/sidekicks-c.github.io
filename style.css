@@ -191,6 +191,8 @@
   font-display: swap;
 }
 
+
+
 body {
   font-family: "Ubuntu Regular", sans-serif;
   font-size: 13pt;
@@ -238,12 +240,10 @@ h1 {
   padding: 0.4em;
   border-top-left-radius: 0.75em;
   border-bottom-right-radius: 0.75em;
-  font-family: "Ubuntu-Bold";
   color: white;
   line-height: 1em;
 }
 h2 {
-  font-family: "Ubuntu-Medium";
   color: #bf1eb7;
   line-height: 1.2;
 }
@@ -260,7 +260,6 @@ p {
 
 .lang {
   font-size: 1.2em;
-  font-family: "Ubuntu-Medium";
 }
 .skiplink {
   position: absolute;
@@ -277,6 +276,60 @@ p {
 #toggle:checked ~ .fontchange h2 {
   font-family: OpenDyslexicThree-Bold;
 }
+
+.options-box, #font-selection {
+  background: white;
+}
+
+.font-Ubuntu {
+  font-family: "Ubuntu Regular", sans-serif;
+}
+.font-Ubuntu h1 {
+  font-family: "Ubuntu-Bold";
+}
+.font-Ubuntu h2,
+.font-Ubuntu .lang {
+  font-family: "Ubuntu-Medium";
+}
+
+.font-SylexiadSans {
+  font-family: SylexiadSansMedium, sans-serif;
+}
+.font-SylexiadSans h1,
+.font-SylexiadSans h2,
+.font-SylexiadSans .lang {
+  font-family: SylexiadSansMedium-Bold, sans-serif;
+}
+
+.font-Lora {
+  font-family: Lora-Regular, sans-serif;
+}
+.font-Lora h1,
+.font-Lora h2,
+.font-Lora .lang {
+  font-family: Lora-Bold, serif;
+}
+
+.font-AtkinsonHyperlegible {
+  font-family: AtkinsonHyperlegible-Regular, sans-serif;
+}
+.font-AtkinsonHyperlegible h1,
+.font-AtkinsonHyperlegible h2,
+.font-AtkinsonHyperlegible .lang {
+  font-family: AtkinsonHyperlegible-Bold, sans-serif;
+}
+
+.font-OpenDyslexicThree {
+  font-family: OpenDyslexicThree-Regular, sans-serif;
+}
+
+.font-OpenDyslexicThree h1,
+.font-OpenDyslexicThree h2,
+.font-OpenDyslexicThree .lang{
+  font-family: OpenDyslexicThree-Bold, sans-serif;
+}
+
+
 
 @media only screen and (min-width: 50em) {
   body {
