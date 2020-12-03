@@ -280,7 +280,7 @@ p {
 
 @media only screen and (min-width: 50em) {
   body {
-    max-width: 120ch;
+    max-width: 1200px;
   }
   .flex > * {
     flex-basis: 20rem;
