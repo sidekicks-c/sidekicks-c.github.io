@@ -191,8 +191,6 @@
   font-display: swap;
 }
 
-
-
 body {
   font-family: "Ubuntu Regular", sans-serif;
   font-size: 13pt;
@@ -266,6 +264,9 @@ p {
   bottom: -2em;
   right: 1em;
 }
+.js {
+  display: none
+}
 
 #toggle:checked ~ .fontchange {
   font-family: OpenDyslexicThree-Regular;
@@ -321,7 +322,7 @@ p {
 
 .font-OpenDyslexicThree h1,
 .font-OpenDyslexicThree h2,
-.font-OpenDyslexicThree .lang{
+.font-OpenDyslexicThree .lang {
   font-family: OpenDyslexicThree-Bold, sans-serif;
 }
 
