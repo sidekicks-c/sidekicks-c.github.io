@@ -282,6 +282,36 @@ p {
   background-color: #5b00d2;
   cursor: pointer;
 }
+#font-selection {
+  color: #333333;
+  border: 0;
+  background: #efefef;
+  border-radius: 15px;
+  border: 1px solid #6600ea;
+}
+#font-selection ul {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: center;*/
+  flex-direction: row;
+  margin: 0;
+  padding: 0.85rem;
+  border: 0;
+  background: #efefef;
+}
+#font-selection li {
+  min-width: 12em; /* due to longest word 'musical instruments'*/
+  list-style: none;
+  height: 20pt;
+}
+#font-selection legend {
+  width: auto;
+  color: #222;
+  padding: 0.2rem 0.7rem;
+  background-color: inherit;
+  border: 1px solid #6600ea;
+  border-radius: 15px;
+}
 
 /* Choosing fonts via CSS (no-JS fallback)*/
 #toggle:checked ~ .fontchange {
@@ -370,6 +400,19 @@ p {
     height: 0;
     font-size: 0;
     line-height: 0;
+  }
+
+  #font-selection {
+    margin: auto;
+  }
+  #font-selection ul {
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    justify-content: space-around;
+  }
+  #font-selection li {
+    min-width: 0;
   }
 }
 
