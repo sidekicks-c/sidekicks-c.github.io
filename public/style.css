@@ -265,17 +265,17 @@ p {
   right: 1em;
 }
 .js {
-  display: none
+  display: none;
 }
 
 #accessibility-options button {
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   font-size: inherit;
   color: #efefef;
   background-color: #6600ea;
-border: 0;
+  border: 0;
   border-bottom-left-radius: 1em;
   font-weight: bold;
   margin: 0;
