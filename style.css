@@ -264,10 +264,7 @@ p {
   bottom: -2em;
   right: 1em;
 }
-.js {
-  display: none;
-}
-
+/* Choosing fonts via JS */
 #accessibility-options button {
   position: absolute;
   top: 0;
@@ -286,6 +283,7 @@ p {
   cursor: pointer;
 }
 
+/* Choosing fonts via CSS (no-JS fallback)*/
 #toggle:checked ~ .fontchange {
   font-family: OpenDyslexicThree-Regular;
 }
@@ -296,6 +294,7 @@ p {
   font-family: OpenDyslexicThree-Bold;
 }
 
+/* Fonts */
 .font-Ubuntu {
   font-family: "Ubuntu Regular", sans-serif;
 }
@@ -346,6 +345,9 @@ p {
 
 /* Utility classes */
 .display-none {
+  display: none;
+}
+.js {
   display: none;
 }
 
