@@ -292,7 +292,6 @@ p {
 #font-selection ul {
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: center;*/
   flex-direction: row;
   margin: 0;
   padding: 0.85rem;
@@ -306,7 +305,7 @@ p {
 }
 #font-selection legend {
   width: auto;
-  color: #222;
+  color: inherit;
   padding: 0.2rem 0.7rem;
   background-color: inherit;
   border: 1px solid #6600ea;
@@ -446,5 +445,16 @@ p {
   }
   #accessibility-options button:hover {
     background-color: #8432ee;
+  }
+
+  #font-selection {
+    color: #ccc;
+    background: #040012;
+  }
+  #font-selection ul {
+    background: #040012;
+  }
+  #font-selection legend {
+    border: 1px solid #6600ea;
   }
 }
