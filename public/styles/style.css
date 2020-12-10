@@ -9,7 +9,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "SylexiadSansMedium";
   src: url("../fonts/SylexiadSansMedium.eot");
@@ -20,7 +19,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Lora-Bold";
   src: url("../fonts/Lora-Bold.eot");
@@ -31,7 +29,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Lora-Regular";
   src: url("../fonts/Lora-Regular.eot");
@@ -42,7 +39,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AtkinsonHyperlegible-Bold";
   src: url("../fonts/Atkinson-Hyperlegible-Bold.eot");
@@ -53,7 +49,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "AtkinsonHyperlegible-Regular";
   src: url("../fonts/Atkinson-Hyperlegible-Regular.eot");
@@ -64,7 +59,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "OpenDyslexicThree-Bold";
   src: url("../fonts/OpenDyslexic3-Bold.eot");
@@ -75,7 +69,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "OpenDyslexicThree-Regular";
   src: url("../fonts/OpenDyslexic3-Regular.eot");
@@ -86,7 +79,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Ubuntu Regular";
   src: url("../fonts/Ubuntu-R.eot");
@@ -97,7 +89,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Ubuntu-Light";
   src: url("../fonts/Ubuntu-L.eot");
@@ -108,7 +99,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Ubuntu-Medium";
   src: url("../fonts/Ubuntu-M.eot");
@@ -119,7 +109,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Ubuntu-Bold";
   src: url("../fonts/Ubuntu-B.eot");
@@ -130,7 +119,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 body {
   font-family: "Ubuntu Regular", sans-serif;
   font-size: 13pt;
@@ -155,27 +143,16 @@ a:focus {
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex > * {
   margin: 0 1em;
-  -ms-flex-preferred-size: 25rem;
-      flex-basis: 25rem;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-basis: 25rem;
+  flex-grow: 1;
 }
 
 header {
@@ -188,7 +165,6 @@ header {
 
 h1 {
   display: inline-block;
-  background: -webkit-gradient(linear, left top, right top, from(#c31fba), to(#6600ea));
   background: linear-gradient(to right, #c31fba, #6600ea);
   padding: 0.4em;
   border-top-left-radius: 0.75em;
@@ -207,7 +183,6 @@ ul {
   border-width: 3px 0 0 0;
   border-style: solid;
   -o-border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
-  border-image: -webkit-gradient(linear, left top, right top, from(#c31fba), to(#6600ea)) 100% 1;
   border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
 }
 
@@ -254,15 +229,9 @@ p {
 }
 
 #font-selection ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin: 0;
   padding: 0.85rem;
   border: 0;
@@ -366,13 +335,15 @@ p {
   body {
     max-width: 900pt;
   }
+
   .flex > * {
-    -ms-flex-preferred-size: 20rem;
-        flex-basis: 20rem;
+    flex-basis: 20rem;
   }
+
   header {
     background-size: 100%;
   }
+
   .skiplink {
     position: absolute;
     top: -9999px;
@@ -382,61 +353,73 @@ p {
     font-size: 0;
     line-height: 0;
   }
+
   #font-selection {
     margin: auto;
   }
+
   #font-selection ul {
     margin: 0 1rem;
     padding: 0.5rem;
     border-radius: 20px;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
+
   #font-selection li {
     min-width: 0;
   }
 }
-
 @media (prefers-color-scheme: dark) {
   body {
     background: #040012;
     color: #ccc;
     font-family: "Ubuntu-Medium";
   }
+
   a {
     text-decoration: none;
     color: #2ea0ff;
   }
+
   a:hover,
-  a:focus {
+a:focus {
     color: #b162f4;
   }
+
   h1 {
     font-family: "Ubuntu-Light";
     color: black;
   }
+
   h2 {
     font-family: "Ubuntu Regular";
     color: #e20cef;
   }
+
   ul {
     background: black;
   }
+
   #accessibility-options button {
     color: black;
   }
+
   #accessibility-options button:hover {
     background-color: #8432ee;
   }
+
   #font-selection {
     color: #ccc;
     background: #040012;
   }
+
   #font-selection ul {
     background: #040012;
   }
+
   #font-selection legend {
     border: 1px solid #6600ea;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
