@@ -1,0 +1,442 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "SylexiadSansMedium-Bold";
+  src: url("./fonts/SylexiadSansMedium-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/SylexiadSansMedium-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/SylexiadSansMedium-Bold.otf") format("opentype"), url("./fonts/SylexiadSansMedium-Bold.svg") format("svg"), url("./fonts/SylexiadSansMedium-Bold.ttf") format("truetype"), url("./fonts/SylexiadSansMedium-Bold.woff") format("woff"), url("./fonts/SylexiadSansMedium-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SylexiadSansMedium";
+  src: url("./fonts/SylexiadSansMedium.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/SylexiadSansMedium.eot?#iefix") format("embedded-opentype"), url("./fonts/SylexiadSansMedium.otf") format("opentype"), url("./fonts/SylexiadSansMedium.svg") format("svg"), url("./fonts/SylexiadSansMedium.ttf") format("truetype"), url("./fonts/SylexiadSansMedium.woff") format("woff"), url("./fonts/SylexiadSansMedium.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora-Bold";
+  src: url("./fonts/Lora-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Lora-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/Lora-Bold.otf") format("opentype"), url("./fonts/Lora-Bold.svg") format("svg"), url("./fonts/Lora-Bold.ttf") format("truetype"), url("./fonts/Lora-Bold.woff") format("woff"), url("./fonts/Lora-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora-Regular";
+  src: url("./fonts/Lora-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Lora-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Lora-Regular.otf") format("opentype"), url("./fonts/Lora-Regular.svg") format("svg"), url("./fonts/Lora-Regular.ttf") format("truetype"), url("./fonts/Lora-Regular.woff") format("woff"), url("./fonts/Lora-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AtkinsonHyperlegible-Bold";
+  src: url("./fonts/Atkinson-Hyperlegible-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Atkinson-Hyperlegible-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/Atkinson-Hyperlegible-Bold.otf") format("opentype"), url("./fonts/Atkinson-Hyperlegible-Bold.svg") format("svg"), url("./fonts/Atkinson-Hyperlegible-Bold.ttf") format("truetype"), url("./fonts/Atkinson-Hyperlegible-Bold.woff") format("woff"), url("./fonts/Atkinson-Hyperlegible-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AtkinsonHyperlegible-Regular";
+  src: url("./fonts/Atkinson-Hyperlegible-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Atkinson-Hyperlegible-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Atkinson-Hyperlegible-Regular.otf") format("opentype"), url("./fonts/Atkinson-Hyperlegible-Regular.svg") format("svg"), url("./fonts/Atkinson-Hyperlegible-Regular.ttf") format("truetype"), url("./fonts/Atkinson-Hyperlegible-Regular.woff") format("woff"), url("./fonts/Atkinson-Hyperlegible-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenDyslexicThree-Bold";
+  src: url("./fonts/OpenDyslexic3-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/OpenDyslexic3-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/OpenDyslexic3-Bold.otf") format("opentype"), url("./fonts/OpenDyslexic3-Bold.svg") format("svg"), url("./fonts/OpenDyslexic3-Bold.ttf") format("truetype"), url("./fonts/OpenDyslexic3-Bold.woff") format("woff"), url("./fonts/OpenDyslexic3-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenDyslexicThree-Regular";
+  src: url("./fonts/OpenDyslexic3-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/OpenDyslexic3-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/OpenDyslexic3-Regular.otf") format("opentype"), url("./fonts/OpenDyslexic3-Regular.svg") format("svg"), url("./fonts/OpenDyslexic3-Regular.ttf") format("truetype"), url("./fonts/OpenDyslexic3-Regular.woff") format("woff"), url("./fonts/OpenDyslexic3-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu Regular";
+  src: url("./fonts/Ubuntu-R.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Ubuntu-R.eot?#iefix") format("embedded-opentype"), url("./fonts/Ubuntu-R.otf") format("opentype"), url("./fonts/Ubuntu-R.svg") format("svg"), url("./fonts/Ubuntu-R.ttf") format("truetype"), url("./fonts/Ubuntu-R.woff") format("woff"), url("./fonts/Ubuntu-R.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("./fonts/Ubuntu-L.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Ubuntu-L.eot?#iefix") format("embedded-opentype"), url("./fonts/Ubuntu-L.otf") format("opentype"), url("./fonts/Ubuntu-L.svg") format("svg"), url("./fonts/Ubuntu-L.ttf") format("truetype"), url("./fonts/Ubuntu-L.woff") format("woff"), url("./fonts/Ubuntu-L.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("./fonts/Ubuntu-M.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Ubuntu-M.eot?#iefix") format("embedded-opentype"), url("./fonts/Ubuntu-M.otf") format("opentype"), url("./fonts/Ubuntu-M.svg") format("svg"), url("./fonts/Ubuntu-M.ttf") format("truetype"), url("./fonts/Ubuntu-M.woff") format("woff"), url("./fonts/Ubuntu-M.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("./fonts/Ubuntu-B.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Ubuntu-B.eot?#iefix") format("embedded-opentype"), url("./fonts/Ubuntu-B.otf") format("opentype"), url("./fonts/Ubuntu-B.svg") format("svg"), url("./fonts/Ubuntu-B.ttf") format("truetype"), url("./fonts/Ubuntu-B.woff") format("woff"), url("./fonts/Ubuntu-B.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Ubuntu Regular", sans-serif;
+  font-size: 13pt;
+  line-height: 1.35em;
+  margin: 0 auto;
+  background: #efefef;
+  color: #333333;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+a {
+  text-decoration: none;
+  color: #763bff;
+}
+
+a:hover,
+a:focus {
+  color: #5f0096;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex > * {
+  margin: 0 1em;
+  -ms-flex-preferred-size: 25rem;
+      flex-basis: 25rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+header {
+  position: relative;
+  background-image: url("img/header_img_placeholder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover 100%;
+  padding: 1.5em 1em;
+}
+
+h1 {
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, right top, from(#c31fba), to(#6600ea));
+  background: linear-gradient(to right, #c31fba, #6600ea);
+  padding: 0.4em;
+  border-top-left-radius: 0.75em;
+  border-bottom-right-radius: 0.75em;
+  color: white;
+  line-height: 1em;
+}
+
+h2 {
+  color: #bf1eb7;
+  line-height: 1.2;
+}
+
+ul {
+  background: #e2e2e2ff;
+  border-width: 3px 0 0 0;
+  border-style: solid;
+  -o-border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
+  border-image: -webkit-gradient(linear, left top, right top, from(#c31fba), to(#6600ea)) 100% 1;
+  border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
+}
+
+p {
+  margin: 2rem auto;
+}
+
+.lang {
+  font-size: 1.2em;
+}
+
+.skiplink {
+  position: absolute;
+  bottom: -2em;
+  right: 1em;
+}
+
+/* Choosing fonts via JS */
+#accessibility-options button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: inherit;
+  color: #efefef;
+  background-color: #6600ea;
+  border: 0;
+  border-bottom-left-radius: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.4em 0.6em;
+}
+
+#accessibility-options button:hover {
+  background-color: #5b00d2;
+  cursor: pointer;
+}
+
+#font-selection {
+  color: #333333;
+  border: 0;
+  background: #efefef;
+  border-radius: 15px;
+  border: 1px solid #6600ea;
+}
+
+#font-selection ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 0.85rem;
+  border: 0;
+  background: #efefef;
+}
+
+#font-selection li {
+  min-width: 12em;
+  /* due to longest word 'musical instruments'*/
+  list-style: none;
+  height: 20pt;
+}
+
+#font-selection legend {
+  width: auto;
+  color: inherit;
+  padding: 0.2rem 0.7rem;
+  background-color: inherit;
+  border: 1px solid #6600ea;
+  border-radius: 15px;
+}
+
+/* Choosing fonts via CSS (no-JS fallback)*/
+#toggle:checked ~ .fontchange {
+  font-family: OpenDyslexicThree-Regular;
+}
+
+#toggle:checked ~ .fontchange .lang {
+  font-family: OpenDyslexicThree-Bold;
+}
+
+#toggle:checked ~ .fontchange h2 {
+  font-family: OpenDyslexicThree-Bold;
+}
+
+/* Fonts */
+.font-Ubuntu {
+  font-family: "Ubuntu Regular", sans-serif;
+}
+
+.font-Ubuntu h1 {
+  font-family: "Ubuntu-Bold";
+}
+
+.font-Ubuntu h2,
+.font-Ubuntu .lang {
+  font-family: "Ubuntu-Medium";
+}
+
+.font-SylexiadSans {
+  font-family: SylexiadSansMedium, sans-serif;
+}
+
+.font-SylexiadSans h1,
+.font-SylexiadSans h2,
+.font-SylexiadSans .lang {
+  font-family: SylexiadSansMedium-Bold, sans-serif;
+}
+
+.font-Lora {
+  font-family: Lora-Regular, sans-serif;
+}
+
+.font-Lora h1,
+.font-Lora h2,
+.font-Lora .lang {
+  font-family: Lora-Bold, serif;
+}
+
+.font-AtkinsonHyperlegible {
+  font-family: AtkinsonHyperlegible-Regular, sans-serif;
+}
+
+.font-AtkinsonHyperlegible h1,
+.font-AtkinsonHyperlegible h2,
+.font-AtkinsonHyperlegible .lang {
+  font-family: AtkinsonHyperlegible-Bold, sans-serif;
+}
+
+.font-OpenDyslexicThree {
+  font-family: OpenDyslexicThree-Regular, sans-serif;
+}
+
+.font-OpenDyslexicThree h1,
+.font-OpenDyslexicThree h2,
+.font-OpenDyslexicThree .lang {
+  font-family: OpenDyslexicThree-Bold, sans-serif;
+}
+
+/* Utility classes */
+.display-none {
+  display: none;
+}
+
+.js {
+  display: none;
+}
+
+/* Media queries */
+@media only screen and (min-width: 50em) {
+  body {
+    max-width: 900pt;
+  }
+  .flex > * {
+    -ms-flex-preferred-size: 20rem;
+        flex-basis: 20rem;
+  }
+  header {
+    background-size: 100%;
+  }
+  .skiplink {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+  }
+  #font-selection {
+    margin: auto;
+  }
+  #font-selection ul {
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #font-selection li {
+    min-width: 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #040012;
+    color: #ccc;
+    font-family: "Ubuntu-Medium";
+  }
+  a {
+    text-decoration: none;
+    color: #2ea0ff;
+  }
+  a:hover,
+  a:focus {
+    color: #b162f4;
+  }
+  h1 {
+    font-family: "Ubuntu-Light";
+    color: black;
+  }
+  h2 {
+    font-family: "Ubuntu Regular";
+    color: #e20cef;
+  }
+  ul {
+    background: black;
+  }
+  #accessibility-options button {
+    color: black;
+  }
+  #accessibility-options button:hover {
+    background-color: #8432ee;
+  }
+  #font-selection {
+    color: #ccc;
+    background: #040012;
+  }
+  #font-selection ul {
+    background: #040012;
+  }
+  #font-selection legend {
+    border: 1px solid #6600ea;
+  }
+}
+/*# sourceMappingURL=style.css.map */
