@@ -229,20 +229,19 @@ p {
 }
 
 #font-selection ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  -moz-columns: 3 130pt;
+  columns: 3 130pt;
   margin: 0;
-  padding: 0.85rem;
+  padding: 0rem;
   border: 0;
   background: #efefef;
 }
 
 #font-selection li {
   min-width: 12em;
-  /* due to longest word 'musical instruments'*/
   list-style: none;
   height: 20pt;
+  display: block;
 }
 
 #font-selection legend {
@@ -359,6 +358,9 @@ p {
   }
 
   #font-selection ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin: 0 1rem;
     padding: 0.5rem;
     border-radius: 20px;
@@ -367,6 +369,12 @@ p {
 
   #font-selection li {
     min-width: 0;
+  }
+
+  #font-selection legend {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (prefers-color-scheme: dark) {
