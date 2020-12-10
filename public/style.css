@@ -300,7 +300,8 @@ p {
 #font-selection li {
   min-width: 12em; /* due to longest word 'musical instruments'*/
   list-style: none;
-  height: 20pt;
+  line-height: 1;
+  height: 22pt;
   display: block;
 }
 #font-selection legend {
@@ -310,6 +311,9 @@ p {
   background-color: inherit;
   border: 1px solid #6600ea;
   border-radius: 15px;
+}
+#font-selection input[type="radio"] {
+  margin-right: 5pt;
 }
 
 /* Choosing fonts via CSS (no-JS fallback)*/
