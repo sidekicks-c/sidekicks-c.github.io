@@ -213,13 +213,13 @@ a:focus {
   color: #5f0096;
 }
 
-.flex {
+.content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-.flex > * {
+.content > * {
   margin: 0 1em;
   flex-basis: 25rem;
   flex-grow: 1;
