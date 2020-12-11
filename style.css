@@ -485,3 +485,17 @@ p {
     border: 1px solid #6600ea;
   }
 }
+
+@media (prefers-color-scheme: dark) and (min-width: 50em) {
+  #font-selection {
+    color: black;
+    background: #6600ea;
+  }
+  #font-selection ul {
+    color: black;
+    background: #6600ea;
+  }
+  #font-selection li:hover {
+    background-color: #8432ee;
+  }
+}
