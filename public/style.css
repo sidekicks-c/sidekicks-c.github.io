@@ -284,7 +284,6 @@ p {
 }
 #font-selection {
   color: #333333;
-  border: 0;
   background: #efefef;
   border-radius: 15px;
   border: 1px solid #6600ea;
@@ -298,9 +297,9 @@ p {
   background: #efefef;
 }
 #font-selection li {
-  min-width: 12em; /* due to longest word 'musical instruments'*/
+  min-width: 12em;
   list-style: none;
-  line-height: 1;
+  line-height: 0;
   height: 22pt;
   display: block;
 }
