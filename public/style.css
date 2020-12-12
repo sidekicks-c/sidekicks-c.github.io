@@ -264,6 +264,18 @@ p {
   bottom: -2em;
   right: 1em;
 }
+footer {
+  background-color: #6600ea;
+  text-align: center;
+  padding: 1em;
+}
+footer a {
+  color: #efefef;
+}
+footer a:hover {
+  color: #efefef;
+  text-decoration: underline;
+}
 /* Choosing fonts via JS */
 #accessibility-options button {
   position: absolute;
@@ -473,7 +485,6 @@ p {
   #accessibility-options button:hover {
     background-color: #8432ee;
   }
-
   #font-selection {
     color: #ccc;
     background: #040012;
@@ -484,6 +495,10 @@ p {
   #font-selection legend {
     border: 1px solid #6600ea;
   }
+  footer a, footer a:hover {
+    color: black;
+  }
+
 }
 
 @media (prefers-color-scheme: dark) and (min-width: 50em) {

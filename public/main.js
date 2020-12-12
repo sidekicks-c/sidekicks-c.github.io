@@ -10,7 +10,7 @@ const showAccessibilityMenu = () => {
 const changeFont = event => {
   console.log("You selected: ", event.target.value);
   const font = event.target.value;
-  const contentNode = document.getElementsByClassName("content")[0];
+  const contentNode = document.getElementsByClassName("fontchange")[0];
   console.log(contentNode);
   contentNode.classList.remove(
     "font-SylexiadSans",
