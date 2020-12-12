@@ -288,6 +288,9 @@ footer {
   background-color: #5b00d2;
   cursor: pointer;
 }
+#accessibility-options button:focus {
+  outline: none;
+}
 #font-selection {
   color: #333333;
   background: #efefef;
