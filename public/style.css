@@ -265,17 +265,11 @@ p {
   right: 1em;
 }
 footer {
-  background-color: #6600ea;
+  background-color: #e2e2e2ff;
   text-align: center;
   padding: 1em;
 }
-footer a {
-  color: #efefef;
-}
-footer a:hover {
-  color: #efefef;
-  text-decoration: underline;
-}
+
 /* Choosing fonts via JS */
 #accessibility-options button {
   position: absolute;
@@ -495,10 +489,9 @@ footer a:hover {
   #font-selection legend {
     border: 1px solid #6600ea;
   }
-  footer a, footer a:hover {
-    color: black;
+  footer {
+    background: black;
   }
-
 }
 
 @media (prefers-color-scheme: dark) and (min-width: 50em) {
