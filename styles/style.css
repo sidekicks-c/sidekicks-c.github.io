@@ -142,14 +142,14 @@ a:focus {
   color: #5f0096;
 }
 
-.flex {
+main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.flex > * {
+main > * {
   margin: 0 1em;
   flex-basis: 25rem;
   flex-grow: 1;
@@ -200,6 +200,12 @@ p {
   right: 1em;
 }
 
+footer {
+  background-color: #e2e2e2ff;
+  text-align: center;
+  padding: 1em;
+}
+
 /* Choosing fonts via JS */
 #accessibility-options button {
   position: absolute;
@@ -220,9 +226,12 @@ p {
   cursor: pointer;
 }
 
+#accessibility-options button:focus {
+  outline: none;
+}
+
 #font-selection {
   color: #333333;
-  border: 0;
   background: #efefef;
   border-radius: 15px;
   border: 1px solid #6600ea;
@@ -232,7 +241,7 @@ p {
   -moz-columns: 3 130pt;
   columns: 3 130pt;
   margin: 0;
-  padding: 0rem;
+  padding: 0;
   border: 0;
   background: #efefef;
 }
@@ -240,7 +249,8 @@ p {
 #font-selection li {
   min-width: 12em;
   list-style: none;
-  height: 20pt;
+  line-height: 0;
+  height: 22pt;
   display: block;
 }
 
@@ -251,6 +261,14 @@ p {
   background-color: inherit;
   border: 1px solid #6600ea;
   border-radius: 15px;
+}
+
+#font-selection label:hover {
+  cursor: pointer;
+}
+
+#font-selection input[type=radio] {
+  margin-right: 5pt;
 }
 
 /* Choosing fonts via CSS (no-JS fallback)*/
@@ -335,7 +353,7 @@ p {
     max-width: 900pt;
   }
 
-  .flex > * {
+  main > * {
     flex-basis: 20rem;
   }
 
@@ -353,28 +371,42 @@ p {
     line-height: 0;
   }
 
+  #accessibility-options {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: inherit;
+    color: #efefef;
+    background-color: #6600ea;
+    border: 0;
+    border-bottom-left-radius: 1.5em;
+    font-weight: bold;
+    padding: 0 0 0 0.5em;
+  }
+
   #font-selection {
     margin: auto;
-  }
-
-  #font-selection ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0 1rem;
-    padding: 0.5rem;
-    border-radius: 20px;
-    justify-content: space-around;
-  }
-
-  #font-selection li {
-    min-width: 0;
+    color: #efefef;
+    background-color: #6600ea;
   }
 
   #font-selection legend {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    border: 0;
+    padding-top: 2em;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  #font-selection ul {
+    -moz-columns: 1;
+    columns: 1;
+    color: #efefef;
+    background-color: #6600ea;
+    margin: 0;
+  }
+
+  #font-selection li:hover {
+    background-color: #5b00d2;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -427,6 +459,25 @@ a:focus {
 
   #font-selection legend {
     border: 1px solid #6600ea;
+  }
+
+  footer {
+    background: black;
+  }
+}
+@media (prefers-color-scheme: dark) and (min-width: 50em) {
+  #font-selection {
+    color: black;
+    background: #6600ea;
+  }
+
+  #font-selection ul {
+    color: black;
+    background: #6600ea;
+  }
+
+  #font-selection li:hover {
+    background-color: #8432ee;
   }
 }
 
