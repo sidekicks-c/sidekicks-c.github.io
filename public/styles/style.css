@@ -440,11 +440,9 @@ a:focus {
     color: #ccc;
     background: #040012;
   }
-
   #font-selection ul {
     background: #040012;
   }
-
   #font-selection legend {
     border: 1px solid #6600ea;
   }
@@ -458,12 +456,10 @@ a:focus {
     color: black;
     background: #6600ea;
   }
-
   #font-selection ul {
     color: black;
     background: #6600ea;
   }
-
   #font-selection li:hover {
     background-color: #8432ee;
   }
