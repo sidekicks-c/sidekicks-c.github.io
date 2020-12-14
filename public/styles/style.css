@@ -283,12 +283,10 @@ footer {
   margin: 0;
   padding: 0.4em 0.6em;
 }
-
 #accessibility-options button:hover {
   background-color: #5b00d2;
   cursor: pointer;
 }
-
 #accessibility-options button:focus {
   outline: none;
 }
@@ -299,7 +297,6 @@ footer {
   border-radius: 15px;
   border: 1px solid #6600ea;
 }
-
 #font-selection ul {
   -moz-columns: 3 130pt;
   columns: 3 130pt;
@@ -308,7 +305,6 @@ footer {
   border: 0;
   background: #efefef;
 }
-
 #font-selection li {
   min-width: 12em;
   list-style: none;
@@ -316,7 +312,6 @@ footer {
   height: 22pt;
   display: block;
 }
-
 #font-selection legend {
   width: auto;
   color: inherit;
@@ -325,11 +320,9 @@ footer {
   border: 1px solid #6600ea;
   border-radius: 15px;
 }
-
 #font-selection label:hover {
   cursor: pointer;
 }
-
 #font-selection input[type=radio] {
   margin-right: 5pt;
 }

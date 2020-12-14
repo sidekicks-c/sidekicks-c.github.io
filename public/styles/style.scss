@@ -90,60 +90,62 @@ footer {
 }
 
 /* Choosing fonts via JS */
-#accessibility-options button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: inherit;
-  color: #efefef;
-  background-color: #6600ea;
-  border: 0;
-  border-bottom-left-radius: 1em;
-  font-weight: bold;
-  margin: 0;
-  padding: 0.4em 0.6em;
-}
-#accessibility-options button:hover {
-  background-color: #5b00d2;
-  cursor: pointer;
-}
-#accessibility-options button:focus {
-  outline: none;
+#accessibility-options {
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: inherit;
+    color: #efefef;
+    background-color: #6600ea;
+    border: 0;
+    border-bottom-left-radius: 1em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.4em 0.6em;
+  }
+  button:hover {
+    background-color: #5b00d2;
+    cursor: pointer;
+  }
+  button:focus {
+    outline: none;
+  }
 }
 #font-selection {
   color: #333333;
   background: #efefef;
   border-radius: 15px;
   border: 1px solid #6600ea;
-}
-#font-selection ul {
-  -moz-columns: 3 130pt;
-  columns: 3 130pt;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: #efefef;
-}
-#font-selection li {
-  min-width: 12em;
-  list-style: none;
-  line-height: 0;
-  height: 22pt;
-  display: block;
-}
-#font-selection legend {
-  width: auto;
-  color: inherit;
-  padding: 0.2rem 0.7rem;
-  background-color: inherit;
-  border: 1px solid #6600ea;
-  border-radius: 15px;
-}
-#font-selection label:hover {
-  cursor: pointer;
-}
-#font-selection input[type="radio"] {
-  margin-right: 5pt;
+  ul {
+    -moz-columns: 3 130pt;
+    columns: 3 130pt;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #efefef;
+  }
+  li {
+    min-width: 12em;
+    list-style: none;
+    line-height: 0;
+    height: 22pt;
+    display: block;
+  }
+  legend {
+    width: auto;
+    color: inherit;
+    padding: 0.2rem 0.7rem;
+    background-color: inherit;
+    border: 1px solid #6600ea;
+    border-radius: 15px;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+  input[type="radio"] {
+    margin-right: 5pt;
+  }
 }
 
 /* Choosing fonts via CSS (no-JS fallback)*/
@@ -156,8 +158,6 @@ footer {
 #toggle:checked ~ .fontchange h2 {
   font-family: OpenDyslexicThree-Bold;
 }
-
-
 
 /* Media queries */
 @media only screen and (min-width: 50em) {
