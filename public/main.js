@@ -10,15 +10,16 @@ const showAccessibilityMenu = () => {
 const changeFont = event => {
   console.log("You selected: ", event.target.value);
   const font = event.target.value;
-  const bodyNode = document.getElementsByTagName("body")[0];
-  bodyNode.classList.remove(
+  const contentNode = document.getElementsByClassName("fontchange")[0];
+  contentNode.classList.remove(
     "font-SylexiadSans",
     "font-Lora",
     "font-AtkinsonHyperlegible",
     "font-OpenDyslexicThree",
     "font-Ubuntu"
   );
-  bodyNode.classList.add(`font-${font}`);
+  contentNode.classList.add(`font-${font}`);
+  window.localStorage.setItem("font", `font-${font}`);
 };
 
 document
@@ -27,6 +28,21 @@ document
 document
   .getElementById("font-selection")
   .addEventListener("change", changeFont);
+
+// get font from localStorage
+window.onload = function() {
+  const previousFont = localStorage.getItem("font");
+  const contentNode = document.getElementsByClassName("fontchange")[0];
+  contentNode.classList.remove(
+    "font-SylexiadSans",
+    "font-Lora",
+    "font-AtkinsonHyperlegible",
+    "font-OpenDyslexicThree",
+    "font-Ubuntu"
+  );
+  contentNode.classList.add(previousFont);
+  console.log(previousFont);
+};
 
 // no-js handling
 for (let el of document.querySelectorAll(".no-js")) el.style.display = "none";
