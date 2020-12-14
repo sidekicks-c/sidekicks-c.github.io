@@ -151,12 +151,12 @@ footer {
 /* Choosing fonts via CSS (no-JS fallback)*/
 #toggle:checked ~ .fontchange {
   font-family: OpenDyslexicThree-Regular;
-}
-#toggle:checked ~ .fontchange .lang {
-  font-family: OpenDyslexicThree-Bold;
-}
-#toggle:checked ~ .fontchange h2 {
-  font-family: OpenDyslexicThree-Bold;
+  .lang {
+    font-family: OpenDyslexicThree-Bold;
+  }
+  h2 {
+    font-family: OpenDyslexicThree-Bold;
+  }
 }
 
 /* Media queries */
@@ -196,22 +196,23 @@ footer {
     margin: auto;
     color: #efefef;
     background-color: #6600ea;
-  }
-  #font-selection legend {
-    border: 0;
-    padding-top: 2em;
-    padding-left: 0;
-    margin-left: 0;
-  }
-  #font-selection ul {
-    -moz-columns: 1;
-    columns: 1;
-    color: #efefef;
-    background-color: #6600ea;
-    margin: 0;
-  }
-  #font-selection li:hover {
-    background-color: #5b00d2;
+
+    legend {
+      border: 0;
+      padding-top: 2em;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    ul {
+      -moz-columns: 1;
+      columns: 1;
+      color: #efefef;
+      background-color: #6600ea;
+      margin: 0;
+    }
+    li:hover {
+      background-color: #5b00d2;
+    }
   }
 }
 
