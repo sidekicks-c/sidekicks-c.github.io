@@ -213,13 +213,13 @@ a:focus {
   color: #5f0096;
 }
 
-.content {
+main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-.content > * {
+main > * {
   margin: 0 1em;
   flex-basis: 25rem;
   flex-grow: 1;
@@ -400,7 +400,7 @@ footer {
   body {
     max-width: 900pt;
   }
-  .content > * {
+  main > * {
     flex-basis: 20rem;
   }
   header {
