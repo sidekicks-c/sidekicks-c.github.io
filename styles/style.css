@@ -331,11 +331,9 @@ footer {
 #toggle:checked ~ .fontchange {
   font-family: OpenDyslexicThree-Regular;
 }
-
 #toggle:checked ~ .fontchange .lang {
   font-family: OpenDyslexicThree-Bold;
 }
-
 #toggle:checked ~ .fontchange h2 {
   font-family: OpenDyslexicThree-Bold;
 }
@@ -382,14 +380,12 @@ footer {
     color: #efefef;
     background-color: #6600ea;
   }
-
   #font-selection legend {
     border: 0;
     padding-top: 2em;
     padding-left: 0;
     margin-left: 0;
   }
-
   #font-selection ul {
     -moz-columns: 1;
     columns: 1;
@@ -397,7 +393,6 @@ footer {
     background-color: #6600ea;
     margin: 0;
   }
-
   #font-selection li:hover {
     background-color: #5b00d2;
   }
