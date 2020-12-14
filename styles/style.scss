@@ -250,12 +250,13 @@ footer {
   #font-selection {
     color: #ccc;
     background: #040012;
-  }
-  #font-selection ul {
-    background: #040012;
-  }
-  #font-selection legend {
-    border: 1px solid #6600ea;
+
+    ul {
+      background: #040012;
+    }
+    legend {
+      border: 1px solid #6600ea;
+    }
   }
   footer {
     background: black;
@@ -266,12 +267,13 @@ footer {
   #font-selection {
     color: black;
     background: #6600ea;
-  }
-  #font-selection ul {
-    color: black;
-    background: #6600ea;
-  }
-  #font-selection li:hover {
-    background-color: #8432ee;
+
+    ul {
+      color: black;
+      background: #6600ea;
+    }
+    li:hover {
+      background-color: #8432ee;
+    }
   }
 }
