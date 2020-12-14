@@ -1,6 +1,6 @@
 @use 'partials/_css-notice';
 @use 'partials/_font-faces';
-
+@use 'partials/_font-code';
 
 body {
   font-family: "Ubuntu Regular", sans-serif;
@@ -24,6 +24,14 @@ a:focus {
   color: #5f0096;
 }
 
+header {
+  position: relative;
+  background-image: url("../img/header_img_placeholder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover 100%;
+  padding: 1.5em 1em;
+}
+
 main {
   display: flex;
   flex-direction: row;
@@ -36,13 +44,6 @@ main > * {
   flex-grow: 1;
 }
 
-header {
-  position: relative;
-  background-image: url("../img/header_img_placeholder.jpg");
-  background-repeat: no-repeat;
-  background-size: cover 100%;
-  padding: 1.5em 1em;
-}
 h1 {
   display: inline-block;
   background: linear-gradient(to right, #c31fba, #6600ea);
@@ -67,6 +68,11 @@ p {
   margin: 2rem auto;
 }
 
+footer {
+  background-color: #e2e2e2ff;
+  text-align: center;
+  padding: 1em;
+}
 .lang {
   font-size: 1.2em;
 }
@@ -75,10 +81,12 @@ p {
   bottom: -2em;
   right: 1em;
 }
-footer {
-  background-color: #e2e2e2ff;
-  text-align: center;
-  padding: 1em;
+/* Utility classes */
+.display-none {
+  display: none;
+}
+.js {
+  display: none;
 }
 
 /* Choosing fonts via JS */
@@ -149,62 +157,7 @@ footer {
   font-family: OpenDyslexicThree-Bold;
 }
 
-/* Fonts */
-.font-Ubuntu {
-  font-family: "Ubuntu Regular", sans-serif;
-}
-.font-Ubuntu h1 {
-  font-family: "Ubuntu-Bold";
-}
-.font-Ubuntu h2,
-.font-Ubuntu .lang {
-  font-family: "Ubuntu-Medium";
-}
 
-.font-SylexiadSans {
-  font-family: SylexiadSansMedium, sans-serif;
-}
-.font-SylexiadSans h1,
-.font-SylexiadSans h2,
-.font-SylexiadSans .lang {
-  font-family: SylexiadSansMedium-Bold, sans-serif;
-}
-
-.font-Lora {
-  font-family: Lora-Regular, sans-serif;
-}
-.font-Lora h1,
-.font-Lora h2,
-.font-Lora .lang {
-  font-family: Lora-Bold, serif;
-}
-
-.font-AtkinsonHyperlegible {
-  font-family: AtkinsonHyperlegible-Regular, sans-serif;
-}
-.font-AtkinsonHyperlegible h1,
-.font-AtkinsonHyperlegible h2,
-.font-AtkinsonHyperlegible .lang {
-  font-family: AtkinsonHyperlegible-Bold, sans-serif;
-}
-
-.font-OpenDyslexicThree {
-  font-family: OpenDyslexicThree-Regular, sans-serif;
-}
-
-.font-OpenDyslexicThree h1,
-.font-OpenDyslexicThree h2,
-.font-OpenDyslexicThree .lang {
-  font-family: OpenDyslexicThree-Bold, sans-serif;
-}
-
-/* Utility classes */
-.display-none {
-  display: none;
-}
-.js {
-  display: none;
-}
 
 /* Media queries */
 @media only screen and (min-width: 50em) {

@@ -1,0 +1,43 @@
+/* Fonts */
+.font-Ubuntu {
+  font-family: "Ubuntu Regular", sans-serif;
+  h1 {
+    font-family: "Ubuntu-Bold";
+  }
+  h2,
+  .lang {
+    font-family: "Ubuntu-Medium";
+  }
+}
+
+.font-SylexiadSans {
+  font-family: SylexiadSansMedium, sans-serif;
+  h2,
+  .lang {
+    font-family: SylexiadSansMedium-Bold, sans-serif;
+  }
+}
+
+.font-Lora {
+  font-family: Lora-Regular, sans-serif;
+  h2,
+  .lang {
+    font-family: Lora-Bold, serif;
+  }
+}
+
+.font-AtkinsonHyperlegible {
+  font-family: AtkinsonHyperlegible-Regular, sans-serif;
+  h2,
+  .lang {
+    font-family: AtkinsonHyperlegible-Bold, sans-serif;
+  }
+}
+
+.font-OpenDyslexicThree {
+  font-family: OpenDyslexicThree-Regular, sans-serif;
+  h2,
+  .lang {
+    font-family: OpenDyslexicThree-Bold, sans-serif;
+  }
+}
