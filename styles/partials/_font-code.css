@@ -1,0 +1,50 @@
+/* Fonts */
+.font-Ubuntu {
+  font-family: "Ubuntu Regular", sans-serif;
+  font-size: 14pt;
+}
+.font-Ubuntu h1 {
+  font-family: "Ubuntu-Bold";
+}
+.font-Ubuntu h2,
+.font-Ubuntu .lang {
+  font-family: "Ubuntu-Medium";
+}
+
+.font-SylexiadSans {
+  font-family: SylexiadSansMedium, sans-serif;
+  font-size: 16.8pt;
+}
+.font-SylexiadSans h2,
+.font-SylexiadSans .lang {
+  font-family: SylexiadSansMedium-Bold, sans-serif;
+}
+
+.font-Lora {
+  font-family: Lora-Regular, sans-serif;
+  font-size: 14.5pt;
+}
+.font-Lora h2,
+.font-Lora .lang {
+  font-family: Lora-Bold, serif;
+}
+
+.font-AtkinsonHyperlegible {
+  font-family: AtkinsonHyperlegible-Regular, sans-serif;
+  font-size: 15.2pt;
+}
+.font-AtkinsonHyperlegible h2,
+.font-AtkinsonHyperlegible .lang {
+  font-family: AtkinsonHyperlegible-Bold, sans-serif;
+}
+
+.font-OpenDyslexicThree {
+  font-family: OpenDyslexicThree-Regular, sans-serif;
+  font-size: 12.4pt;
+}
+.font-OpenDyslexicThree h2,
+.font-OpenDyslexicThree .lang {
+  font-family: OpenDyslexicThree-Bold, sans-serif;
+}
+
+/*# sourceMappingURL=_font-code.css.map */
