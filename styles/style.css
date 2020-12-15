@@ -406,7 +406,6 @@ footer {
   body {
     background: #040012;
     color: #ccc;
-    font-family: "Ubuntu-Medium";
   }
 
   a {
@@ -420,12 +419,10 @@ a:focus {
   }
 
   h1 {
-    font-family: "Ubuntu-Light";
     color: black;
   }
 
   h2 {
-    font-family: "Ubuntu Regular";
     color: #e20cef;
   }
 
