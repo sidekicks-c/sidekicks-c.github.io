@@ -190,8 +190,25 @@
   font-family: OpenDyslexicThree-Bold, sans-serif;
 }
 
+.font-serif {
+  font-family: serif;
+}
+.font-serif h2,
+.font-serif .lang {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.font-sans {
+  font-family: sans-serif;
+}
+.font-sans h2,
+.font-sans .lang {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 body {
-  font-family: "Ubuntu Regular", sans-serif;
   font-size: 13pt;
   line-height: 1.45em;
   margin: 0 auto;
@@ -315,15 +332,15 @@ footer {
   border: 1px solid #6600ea;
 }
 #font-selection ul {
-  -moz-columns: 3 130pt;
-  columns: 3 130pt;
+  -moz-columns: 3 150pt;
+  columns: 3 150pt;
   margin: 0;
   padding: 0;
   border: 0;
   background: #efefef;
 }
 #font-selection li {
-  min-width: 12em;
+  min-width: 13em;
   list-style: none;
   line-height: 0;
   height: 22pt;

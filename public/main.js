@@ -18,7 +18,9 @@ const changeFont = event => {
     "font-Lora",
     "font-AtkinsonHyperlegible",
     "font-OpenDyslexicThree",
-    "font-Ubuntu"
+    "font-Ubuntu",
+    "font-serif",
+    "font-sans"
   );
   contentNode.classList.add(`font-${font}`);
   window.localStorage.setItem("font", font);
@@ -33,7 +35,9 @@ window.onload = function() {
     "font-Lora",
     "font-AtkinsonHyperlegible",
     "font-OpenDyslexicThree",
-    "font-Ubuntu"
+    "font-Ubuntu",
+    "font-serif",
+    "font-sans"
   );
   contentNode.classList.add(`font-${previousFont}`);
   console.log("Previously selected font: ", previousFont);
