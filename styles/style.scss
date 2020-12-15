@@ -3,7 +3,6 @@
 @use 'partials/_font-code';
 
 body {
-  font-family: "Ubuntu Regular", sans-serif;
   font-size: 13pt;
   line-height: 1.45em;
   margin: 0 auto;
@@ -118,15 +117,15 @@ footer {
   border-radius: 15px;
   border: 1px solid #6600ea;
   ul {
-    -moz-columns: 3 130pt;
-    columns: 3 130pt;
+    -moz-columns: 3 150pt;
+    columns: 3 150pt;
     margin: 0;
     padding: 0;
     border: 0;
     background: #efefef;
   }
   li {
-    min-width: 12em;
+    min-width: 13em;
     list-style: none;
     line-height: 0;
     height: 22pt;
