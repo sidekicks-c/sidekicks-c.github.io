@@ -15,10 +15,11 @@ const changeFont = event => {
   const contentNode = document.getElementsByClassName("fontchange")[0];
   contentNode.classList.remove(
     "font-SylexiadSans",
-    "font-Lora",
     "font-AtkinsonHyperlegible",
     "font-OpenDyslexicThree",
-    "font-Ubuntu"
+    "font-Ubuntu",
+    "font-serif",
+    "font-sans"
   );
   contentNode.classList.add(`font-${font}`);
   window.localStorage.setItem("font", font);
@@ -30,10 +31,11 @@ window.onload = function() {
   const contentNode = document.getElementsByClassName("fontchange")[0];
   contentNode.classList.remove(
     "font-SylexiadSans",
-    "font-Lora",
     "font-AtkinsonHyperlegible",
     "font-OpenDyslexicThree",
-    "font-Ubuntu"
+    "font-Ubuntu",
+    "font-serif",
+    "font-sans"
   );
   contentNode.classList.add(`font-${previousFont}`);
   console.log("Previously selected font: ", previousFont);
