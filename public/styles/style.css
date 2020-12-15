@@ -142,6 +142,18 @@
   font-family: "Ubuntu-Medium";
 }
 
+@media (prefers-color-scheme: dark) {
+  .font-Ubuntu {
+    font-family: "Ubuntu-Medium";
+  }
+  .font-Ubuntu h1 {
+    font-family: "Ubuntu-Light";
+  }
+  .font-Ubuntu h2,
+.font-Ubuntu .lang {
+    font-family: "Ubuntu Regular";
+  }
+}
 .font-SylexiadSans {
   font-family: SylexiadSansMedium, sans-serif;
   font-size: 16.8pt;
