@@ -1,3 +1,4 @@
+// toggle "Accessibility Options" menu
 const showAccessibilityMenu = () => {
   const fontSelection = document.getElementById("font-selection");
   if (fontSelection.classList.contains("display-none")) {
@@ -7,6 +8,7 @@ const showAccessibilityMenu = () => {
   }
 };
 
+// set font
 const changeFont = event => {
   console.log("You selected: ", event.target.value);
   const font = event.target.value;
@@ -19,15 +21,8 @@ const changeFont = event => {
     "font-Ubuntu"
   );
   contentNode.classList.add(`font-${font}`);
-  window.localStorage.setItem("font", `font-${font}`);
+  window.localStorage.setItem("font", font);
 };
-
-document
-  .querySelector("#accessibility-options button")
-  .addEventListener("click", showAccessibilityMenu);
-document
-  .getElementById("font-selection")
-  .addEventListener("change", changeFont);
 
 // get font from localStorage
 window.onload = function() {
@@ -40,9 +35,18 @@ window.onload = function() {
     "font-OpenDyslexicThree",
     "font-Ubuntu"
   );
-  contentNode.classList.add(previousFont);
-  console.log(previousFont);
+  contentNode.classList.add(`font-${previousFont}`);
+  console.log("Previously selected font: ", previousFont);
+  radiobtn = document.getElementById(`font-${previousFont}`);
+  radiobtn.checked = true;
 };
+
+document
+  .querySelector("#accessibility-options button")
+  .addEventListener("click", showAccessibilityMenu);
+document
+  .getElementById("font-selection")
+  .addEventListener("change", changeFont);
 
 // no-js handling
 for (let el of document.querySelectorAll(".no-js")) el.style.display = "none";
