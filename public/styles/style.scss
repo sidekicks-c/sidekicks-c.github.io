@@ -2,12 +2,31 @@
 @use 'partials/_font-faces';
 @use 'partials/_font-code';
 
+$bg_light: #efefef;
+$bg_light_2: #e2e2e2;
+$color_light: #333333;
+$a_light: #763bff;
+$a_hover_light: #5f0096;
+$secondary_light: #c31fba;
+$tertiary_light: #6600ea;
+$light_h2: #bf1eb7;
+$menu_hover_light: #5b00d2;
+
+$bg_dark: #040012;
+$gb_dark_2: black;
+$color_dark: #ccc;
+$a_dark: #2ea0ff;
+$a_hover_dark: #b162f4;
+$dark_h2: #e20cef;
+$menu_hover_dark: #8432ee;
+$tertiary_dark: #6600ea;
+
 body {
   font-size: 13pt;
   line-height: 1.45em;
   margin: 0 auto;
-  background: #efefef;
-  color: #333333;
+  background: $bg_light;
+  color: $color_light;
 }
 
 :root {
@@ -16,11 +35,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #763bff;
+  color: $a_light;
 }
 a:hover,
 a:focus {
-  color: #5f0096;
+  color: $a_hover_light;
 }
 
 header {
@@ -45,7 +64,7 @@ main > * {
 
 h1 {
   display: inline-block;
-  background: linear-gradient(to right, #c31fba, #6600ea);
+  background: linear-gradient(to right, $secondary_light, $tertiary_light);
   padding: 0.4em;
   border-top-left-radius: 0.75em;
   border-bottom-right-radius: 0.75em;
@@ -53,22 +72,22 @@ h1 {
   line-height: 1em;
 }
 h2 {
-  color: #bf1eb7;
+  color: $light_h2;
   line-height: 1.2;
 }
 ul {
-  background: #e2e2e2ff;
+  background: $bg_light_2;
   border-width: 3px 0 0 0;
   border-style: solid;
-  -o-border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
-  border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
+  -o-border-image: linear-gradient(to right, $secondary_light, $tertiary_light) 100% 1;
+  border-image: linear-gradient(to right, $secondary_light, $tertiary_light) 100% 1;
 }
 p {
   margin: 2rem auto;
 }
 
 footer {
-  background-color: #e2e2e2ff;
+  background-color: $bg_light_2;
   text-align: center;
   padding: 1em;
 }
@@ -95,8 +114,8 @@ footer {
     top: 0;
     right: 0;
     font-size: inherit;
-    color: #efefef;
-    background-color: #6600ea;
+    color: $bg_light;
+    background-color: $tertiary_light;
     border: 0;
     border-bottom-left-radius: 1em;
     font-weight: bold;
@@ -104,7 +123,7 @@ footer {
     padding: 0.4em 0.6em;
   }
   button:hover {
-    background-color: #5b00d2;
+    background-color: $menu_hover_light;
     cursor: pointer;
   }
   button:focus {
@@ -112,17 +131,17 @@ footer {
   }
 }
 #font-selection {
-  color: #333333;
-  background: #efefef;
+  color: $color_light;
+  background: $bg_light;
   border-radius: 15px;
-  border: 1px solid #6600ea;
+  border: 1px solid $tertiary_light;
   ul {
     -moz-columns: 3 150pt;
     columns: 3 150pt;
     margin: 0;
     padding: 0;
     border: 0;
-    background: #efefef;
+    background: $bg_light;
   }
   li {
     min-width: 13em;
@@ -136,7 +155,7 @@ footer {
     color: inherit;
     padding: 0.2rem 0.7rem;
     background-color: inherit;
-    border: 1px solid #6600ea;
+    border: 1px solid $tertiary_light;
     border-radius: 15px;
   }
   label:hover {
@@ -184,8 +203,8 @@ footer {
     top: 0;
     right: 0;
     font-size: inherit;
-    color: #efefef;
-    background-color: #6600ea;
+    color: $bg_light;
+    background-color: $tertiary_light;
     border: 0;
     border-bottom-left-radius: 1.5em;
     font-weight: bold;
@@ -193,8 +212,8 @@ footer {
   }
   #font-selection {
     margin: auto;
-    color: #efefef;
-    background-color: #6600ea;
+    color: $bg_light;
+    background-color: $tertiary_light;
 
     legend {
       border: 0;
@@ -205,73 +224,70 @@ footer {
     ul {
       -moz-columns: 1;
       columns: 1;
-      color: #efefef;
-      background-color: #6600ea;
+      color: $bg_light;
+      background-color: $tertiary_light;
       margin: 0;
     }
     li:hover {
-      background-color: #5b00d2;
+      background-color: $menu_hover_light;
     }
   }
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #040012;
-    color: #ccc;
-    font-family: "Ubuntu-Medium";
+    background: $bg_dark;
+    color: $color_dark;
   }
   a {
     text-decoration: none;
-    color: #2ea0ff;
+    color: $a_dark;
   }
   a:hover,
   a:focus {
-    color: #b162f4;
+    color: $a_hover_dark;
   }
   h1 {
-    font-family: "Ubuntu-Light";
-    color: black;
+    color: $gb_dark_2;
   }
   h2 {
-    font-family: "Ubuntu Regular";
-    color: #e20cef;
+    color: $dark_h2;
   }
   ul {
-    background: black;
+    background: $gb_dark_2;
   }
   #accessibility-options button {
-    color: black;
+    color: $gb_dark_2;
   }
   #accessibility-options button:hover {
-    background-color: #8432ee;
+    background-color: $menu_hover_dark;
   }
   #font-selection {
-    color: #ccc;
-    background: #040012;
+    color: $color_dark;
+    background: $bg_dark;
 
     ul {
-      background: #040012;
+      background: $bg_dark;
     }
     legend {
-      border: 1px solid #6600ea;
+      border: 1px solid $tertiary_dark;
     }
   }
   footer {
-    background: black;
+    background: $gb_dark_2;
   }
 }
 
 @media (prefers-color-scheme: dark) and (min-width: 50em) {
   #font-selection {
-    color: black;
-    background: #6600ea;
+    color: $gb_dark_2;
+    background: $tertiary_dark;
     ul {
-      color: black;
-      background: #6600ea;
+      color: $gb_dark_2;
+      background: $tertiary_dark;
     }
     li:hover {
-      background-color: #8432ee;
+      background-color: $menu_hover_dark;
     }
   }
 }
