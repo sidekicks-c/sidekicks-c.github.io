@@ -30,26 +30,6 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Lora-Bold";
-  src: url("../fonts/Lora-Bold.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/Lora-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lora-Bold.otf") format("opentype"), url("../fonts/Lora-Bold.svg") format("svg"), url("../fonts/Lora-Bold.ttf") format("truetype"), url("../fonts/Lora-Bold.woff") format("woff"), url("../fonts/Lora-Bold.woff2") format("woff2");
-  /* Modern Browsers */
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Lora-Regular";
-  src: url("../fonts/Lora-Regular.eot");
-  /* IE9 Compat Modes */
-  src: url("../fonts/Lora-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lora-Regular.otf") format("opentype"), url("../fonts/Lora-Regular.svg") format("svg"), url("../fonts/Lora-Regular.ttf") format("truetype"), url("../fonts/Lora-Regular.woff") format("woff"), url("../fonts/Lora-Regular.woff2") format("woff2");
-  /* Modern Browsers */
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: "AtkinsonHyperlegible-Bold";
   src: url("../fonts/Atkinson-Hyperlegible-Bold.eot");
   /* IE9 Compat Modes */
@@ -258,7 +238,7 @@ h2 {
 }
 
 ul {
-  background: #e2e2e2ff;
+  background: #e2e2e2;
   border-width: 3px 0 0 0;
   border-style: solid;
   -o-border-image: linear-gradient(to right, #c31fba, #6600ea) 100% 1;
@@ -270,7 +250,7 @@ p {
 }
 
 footer {
-  background-color: #e2e2e2ff;
+  background-color: #e2e2e2;
   text-align: center;
   padding: 1em;
 }
