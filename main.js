@@ -15,7 +15,6 @@ const changeFont = event => {
   const contentNode = document.getElementsByClassName("fontchange")[0];
   contentNode.classList.remove(
     "font-SylexiadSans",
-    "font-Lora",
     "font-AtkinsonHyperlegible",
     "font-OpenDyslexicThree",
     "font-Ubuntu",
@@ -32,7 +31,6 @@ window.onload = function() {
   const contentNode = document.getElementsByClassName("fontchange")[0];
   contentNode.classList.remove(
     "font-SylexiadSans",
-    "font-Lora",
     "font-AtkinsonHyperlegible",
     "font-OpenDyslexicThree",
     "font-Ubuntu",
