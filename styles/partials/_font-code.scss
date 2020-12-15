@@ -10,6 +10,18 @@
     font-family: "Ubuntu-Medium";
   }
 }
+@media (prefers-color-scheme: dark) {
+  .font-Ubuntu {
+    font-family: "Ubuntu-Medium";
+    h1 {
+      font-family: "Ubuntu-Light";
+    }
+    h2,
+    .lang {
+      font-family: "Ubuntu Regular";
+    }
+  }
+}
 
 .font-SylexiadSans {
   font-family: SylexiadSansMedium, sans-serif;
