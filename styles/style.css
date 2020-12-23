@@ -232,6 +232,10 @@ h1 {
   line-height: 1em;
 }
 
+h1 a, h1 a:hover {
+  color: white;
+}
+
 h2 {
   color: #bf1eb7;
   line-height: 1.2;
