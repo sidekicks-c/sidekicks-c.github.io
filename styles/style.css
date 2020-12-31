@@ -471,5 +471,10 @@ a:focus {
     background-color: #8432ee;
   }
 }
+@media print {
+  .no-print {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
