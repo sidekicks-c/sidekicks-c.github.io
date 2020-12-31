@@ -15,8 +15,8 @@
   </head>
   <body class="font-Ubuntu">
     <header>
-      <div class="js" lang="en" id="accessibility-options">
-        <button type="button">
+      <div class="js no-print" lang="en" id="accessibility-options">
+        <button type="button" class="no-print">
           Accessibility&nbsp;Options
         </button>
         <fieldset class="display-none" id="font-selection">
@@ -95,10 +95,12 @@
         </fieldset>
       </div>
       <h1><a href="index.html"> C3 Inclusion Operation Center</a></h1>
-      <a href="#english" lang="en" class="skiplink">Go to English content</a>
+      <a href="#english" lang="en" class="skiplink no-print"
+        >Go to English content</a
+      >
     </header>
-    <label class="no-js" for="toggle">OpenDyslexic Font</label>
-    <input class="no-js" type="checkbox" id="toggle" />
+    <label class="no-js no-print" for="toggle">OpenDyslexic Font</label>
+    <input class="no-js no-print" type="checkbox" id="toggle" />
     <div class="fontchange">
       <main>
         <section lang="de" id="deutsch">
@@ -118,8 +120,8 @@
             wird hell oder dunkel angezeigt. Die Vorgabe wird
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"
-              >mit einem Media-Query abgefragt</a
-            >.
+              >mit einem Media-Query abgefragt.</a
+            >
           </p>
           <p>
             <a
@@ -138,8 +140,9 @@
               >in Javascript realisiert</a
             >
             und als no-JS-Fallback gibt es immerhin zwei Fonts per
-            <a href="https://css-tricks.com/the-checkbox-hack/">Checkbox-Hack</a
-            >.
+            <a href="https://css-tricks.com/the-checkbox-hack/"
+              >Checkbox-Hack.</a
+            >
           </p>
           <p>
             Hier ein Kommentar zu der Font-Auswahl:
@@ -181,8 +184,8 @@
             your browser or operating system settings, and is queried
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"
-              >by a media query</a
-            >.
+              >by a media query.</a
+            >
           </p>
           <p>
             <a
@@ -201,8 +204,9 @@
               implemented in Javascript</a
             >, and if your browser does not allow javascript, you can still
             choose between two fonts, implemented via
-            <a href="https://css-tricks.com/the-checkbox-hack/">checkbox hack</a
-            >.
+            <a href="https://css-tricks.com/the-checkbox-hack/"
+              >checkbox hack.</a
+            >
           </p>
           <p>
             Regarding the choices of fonts:
@@ -227,7 +231,7 @@
           </p>
         </section>
       </main>
-      <footer>
+      <footer class="no-print">
         <a lang="de" href="index.html">Zurück zur Hauptseite</a> /
         <a lang="en" href="index.html#english">back to main page</a>
         <br />
